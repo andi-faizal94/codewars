@@ -1,5 +1,5 @@
 function toCamelCase(str) {
-  const words = str.split(/[^-_]/);
+  const words = str.split(/[-_]/);
 
   const camelCased = words.map((word, index) => {
     if (index === 0) {
